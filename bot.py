@@ -7,17 +7,7 @@ load_dotenv()
 TOKEN = os.getenv('DISCORD_TOKEN')
 
 client = discord.Client()
-
-@client.event
-async def on_ready():
-    print(f'{client.user} has connected to Discord!')
-
-@client.event
-async def on_message(message):
-    if message.author == client.user:
-        return
-
-    jokes = [
+jokes = [
         "Deine Mutter bekommt beim Elternabend einen Klassenbucheintrag.",
         "Deine Mudder kauft Ihre Binden im Matratzen-Geschäft.",
         "Google Earth hat angerufen, deine Mutter steht im Bild.",
@@ -37,8 +27,19 @@ async def on_message(message):
         "Deine Mutter ist die Kugel in Indiana Jones"
     ]
 
-    def get_joke():
+def get_joke():
         return random.choice(jokes)
+
+@client.event
+async def on_ready():
+    await client.change_presence(activity=discord.Activity(type=discord.ActivityType.listening, name='type !witz'))
+
+    print(f'{client.user} has connected to Discord!')
+
+@client.event
+async def on_message(message):
+    if message.author == client.user:
+        return
 
     if message.content == '!witz':
         response = get_joke()
