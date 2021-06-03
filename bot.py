@@ -24,7 +24,29 @@ jokes = [
         "Deine Mutter steckt sich eine Münze ins Ohr und denkt sie hört 50 Cent.",
         "Deine Mutter steht gerade hinter dir und fragt sich, woher wir das alles über sie wissen.",
         "Deine Mutter zieht Katapulte nach Gondor.",
-        "Deine Mutter ist die Kugel in Indiana Jones"
+        "Deine Mutter ist die Kugel in Indiana Jones",
+        "Deine Mutter kann ihr Profilbild bei Facebook nicht speichern – die Datei ist zu groß.",
+        "Deine Mutter kann ihr Profilbild bei Facebook nicht speichern – die Datei ist zu groß.",
+        "Deine Mutter ist wie die Weimarer Republik. Ihre Verfassung könnte besser sein.",
+        "Deine Mutter ist sogar in Minecraft rund.",
+        "Wenn deine Mutter sich auf die Waage stellt, sieht sie ihre Telefonnummer.",
+        "Deine Mutter kippt beim Joghurt mit der Ecke die große in die kleine.",
+        "Deine Mutter ist in Chewbacca verliebt. Sie dachte nie, dass sie jemanden findet, der genauso haarig ist.",
+        "Deine Mutter stürzt öfter ab als Windows.",
+        "Deine Mutter schreibt die Texte für Scooter.",
+        "Deine Mutter arbeitet am Strand als Schatten.",
+        "Deine Mutter kocht Wasser nach Rezept.",
+        "Deine Mutter wird von 30 Großwildjägern gesucht",
+        "Deine Mutter ist das Nebelhorn auf nem Kreuzfahrtschiff.",
+        "Wenn deine Mutter tanzen geht, bekommt der Begriff Walzer ‘ne ganz neue Bedeutung.",
+        "Deine Mutter heißt Dieter und ist der Haarigste im Zoo.",
+        "Wenn deine Mutter an meinem Haus vorbeigeht, ist es drei Tage dunkel.",
+        "Deine Mutter ist so hässlich, dein Vater nimmt sie mit auf die Arbeit, damit er ihr keinen Abschiedskuss geben muss.",
+        "Deine Mutter wurde von Aliens entführt. Sie haben sie nach fünf Minuten wieder zurückgebracht.",
+        "Deine Mutter arbeitet auf einem Fischkutter – als Geruch.",
+        "Deine Mutter ist so fett, als ich ihr gegenüberstand und mich umdrehte, war sie immer noch da.",
+        "Deine Mutter schaut sich bei YouTube Tutorials fürs Brotschneiden an.",
+        "Wenn deine Mutter strippt, bekommt sie viel Geld – dafür, dass sie sich schnell wieder anzieht."
     ]
 
 def get_joke():
